@@ -359,7 +359,7 @@
   
     background: #F5F4FA;
     border-radius: 4px;
-    border: none;
+    border: transparent;
   
     color: var(--primary-text-dark-color)
    }
