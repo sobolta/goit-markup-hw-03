@@ -385,16 +385,13 @@
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
     border-top: transparent;
-  
   }
   
    .list-portfolio .title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-  
     letter-spacing: 0.06em;
-  
     color:var(--primary-text-dark-color);
    }
   
@@ -405,7 +402,6 @@
     font-size: 16px;
     line-height: 30px;
     margin-top: 8px;
-  
     color: var(--secondary-text-dark-color);
    }
    
