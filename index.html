@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title lang="en">WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css"/>
-  </head>
-  <body>
-    <header class="page-header">
-      <nav>
-        <a href="./index.html" lang="en" class="logo">
-          Web<span class="logo-header">Studio</span></a>
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link current">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="#" class="link">Контакти</a></li>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <!--MODERN-NORMALIZE  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+  
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>WebStudio</title>
+</head>
+<body>
+
+  <!-- HEDEAR -->
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+      <a class="logo" href="./index.html"><span class="logo-decoration">Web</span>Studio</a>
+        <ul class="list-nav list">
+          <li class="item-list"><a class="link current" href="./index.html">Студія</a></li>
+          <li class="item-list"><a class="link" href="./portfolio.html">Портфоліо</a></li>
+          <li class="item-list"><a class="link" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="section-contacts list">
-        <li>
-          <a class="links-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="links-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
+
+      <ul class="list-contact list">
+        <li class="item-contact"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="item-contact"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
-    </header>
-    <main>
-      <!--Секция героя-->
-      <section class="hero">
+    </div>
+  </header>
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section">
+      <div class="container">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="button" type="button">Замовити послугу</button>
-      </section>
-      <section class="enefits-section">
-        <!-- Скрытый заголовок -->
-        <h2 class="visually-hidden">Особливості</h2>
-        <ul class="our-advantages list">
-          <li>
-            <h3 class="advantages-list">Увага до деталей</h3>
-            <p class="description-advantages">
-              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-list">Пунктуальність</h3>
-            <p class="description-advantages">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-list">Планування</h3>
-            <p class="description-advantages">
-              Так само консультація з широким активом значною мірою зумовлює.
-            </p>
-          </li>
-          <li>
-            <h3 class="advantages-list">Сучасні технології</h3>
-            <p class="description-advantages">
-              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
-            </p>
-          </li>
-        </ul>
-      </section>
+        <button class="btn-hero" type="button">Замовити послугу</button>
+      </div>
+    </section>
+
+    <!-- ADVANTAGES -->
+    <section class="advantages section">
+      <h2 class="visually-hidden">Переваги</h2>
+        <div class="container">
+          <ul class="list-advantages list">
+            <li class="item-advantages">
+              <h3 class=advantages-title>УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="advantages-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+            </li>
+            <li class="item-advantages">
+              <h3 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="advantages-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+            </li>
+            <li class="item-advantages">
+              <h3 class="advantages-title">ПЛАНУВАННЯ</h3>
+              <p class="advantages-text">Так само консультація з широким активом значною мірою зумовлює</p>
+            </li>
+            <li class="item-advantages">
+              <h3 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="advantages-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+            </li>
+          </ul>
+      </div>
+    </section>
+    
       <section>
         <h2 class="section-title">Чим ми займаємося</h2>
         <ul class="list">
